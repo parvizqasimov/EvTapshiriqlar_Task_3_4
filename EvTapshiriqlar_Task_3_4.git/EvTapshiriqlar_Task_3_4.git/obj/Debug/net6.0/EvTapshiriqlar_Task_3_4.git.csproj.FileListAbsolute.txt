@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\bin\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.exe
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\bin\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.deps.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\bin\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.runtimeconfig.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\bin\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\bin\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.AssemblyInfo.cs
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\refint\EvTapshiriqlar_Task_3_4.git.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\EvTapshiriqlar_Task_3_4.git.genruntimeconfig.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqlar_Task_3_4.git\EvTapshiriqlar_Task_3_4.git\obj\Debug\net6.0\ref\EvTapshiriqlar_Task_3_4.git.dll
