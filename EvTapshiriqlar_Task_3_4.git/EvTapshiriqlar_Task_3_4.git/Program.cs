@@ -13,9 +13,9 @@
 
             //Task1_7();
             //Task1_8();
-            //Task1_9();
+            Task1_9();
             //Task1_10();
-            Task2();
+            // Task2();
 
         }
         static void Task1_1()
@@ -157,40 +157,56 @@
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
-            //Console.Write("C deyisheni daxil edin : ");
-            //int c = int.Parse(Console.ReadLine());
+            Console.Write("C deyisheni daxil edin : ");
+            int c = int.Parse(Console.ReadLine());
+
+            int count = 0;
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > c)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+
+            int[] arr2 = new int[n];
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (c < arr[i])
+                {
+                    arr2[i] = arr[i];
+                    Console.WriteLine($"yeni massivin elementleri: {arr2[i]} ");
+                }
+            }
 
 
             int temp;
-            for (i = 0; i < arr.Length - 1; i++)
+            for (i = 0; i < arr2.Length - 1; i++)
             {
-                for (int j = i + 1; j < arr.Length; j++)
+                for (int j = i + 1; j < arr2.Length; j++)
                 {
 
-                    if (arr[i] < arr[j])
+                    if (arr2[i] < arr2[j])
                     {
-                        temp = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = temp;
+                        temp = arr2[i];
+                        arr2[i] = arr2[j];
+                        arr2[j] = temp;
                     }
                 }
             }
 
-            //for (int i = 0; i < arr.Length; i++)
-            //{
-            //    if (arr[i] > c)
-            //    {
-            //        Console.Write("Array:");
-            //        foreach (int i in arr)
-            //        {
-            //        Console.Write($"{i}  ");
-            //        }
-            //    }
-            //}
 
-            // Console.WriteLine($"Sherti odeyen element : {arr}");
-        }// c ni muqayise ede bilmedim
-        static void Task1_5()// c ni muqayise ede bilmedim
+
+            foreach (int j in arr2)
+            {
+
+                Console.Write($"{j}  ");
+            }
+
+
+        }
+        static void Task1_5()
         {
         /*  a massivinin (a[0],a[1] .... a[n])  |a[i]| < c sertini odeyen elementler icinden maximum elementi tapmaq*/
 
@@ -214,18 +230,41 @@
             Console.Write("C deyisheni daxil edin : ");
             int c = int.Parse(Console.ReadLine());
 
-
-            int max = 0;
+            int count = 0;
             for (i = 0; i < arr.Length; i++)
             {
-                if (arr[i] > max)
+                if (arr[i] < c)
                 {
-                    max = arr[i];
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+
+            int[] arr2 = new int[n];
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (c > arr[i])
+                {
+                    arr2[i] = arr[i];
+                    Console.WriteLine($"yeni massivin elementleri: {arr2[i]} ");
+                }
+            }
+
+
+            int max = 0;
+            for (i = 0; i < arr2.Length; i++)
+            {
+                if (arr2[i] > max)
+                {
+                    max = arr2[i];
                 }
             }
             Console.WriteLine($" Maximum eded : {max}");
 
 
+        }
+        static void Task1_6()
+        {
         }
         static void Task1_7()
         {
@@ -316,53 +355,36 @@
              qalanini ise 4-e bolub,yeni iki massiv duzeltmeli*/
 
 
-            int[] arr = new int[4];
+            int[] arr = new int[25];
 
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write($" 1-ci massivin {i + 1} elementini daxil edin : ");
+                Console.Write($" Esas massivin {i + 1} elementini daxil edin : ");
                 arr[i] = int.Parse(Console.ReadLine());
             }
-            int[] arr2 = new int[2];
-            int[] arr3 = new int[2];
 
-            for (int i = 0; i < arr.Length - 2; i++)
+            int[] arr2 = new int[25];
+
+            for (int i = 0; i < arr.Length - 17; i++)
             {
-                //if (i < 2)
-                //{
                 arr2[i] = arr[i] * arr[i];
-                //}
-
+                Console.WriteLine($" 2-ci Massivin elementleri {arr2[i]}");
             }
-            for (int i = 0; i < arr.Length; i++)
+
+            int[] arr3 = new int[25];
+            for (int i = 8; i < arr.Length; i++)
             {
-                arr3[i] = arr[i] + 2;
+                arr3[i] = arr[i] / 4;
+                Console.WriteLine($"3- cu Massivin elementleri {arr3[i]}");
             }
-            //arr3[i] = arr3[i] / 4;
-
-            foreach (int i in arr2)
-            {
-                Console.WriteLine($" 2-ci massivin  elementi: {i} ");
-            }
-
-            foreach (int i in arr3)
-            {
-                Console.WriteLine($" 3-ci massivin  elementi: {i} ");
-            }
-
-
-            //Console.WriteLine($" Minimum eded : {min}");
-
-
-        }// 2 ci massiv alinmadi
+        }           
         static void Task1_10()
         {
         /*   X(n) massivinden ancaq menfi elementlerin maximum elementi tapin */
 
 
         Label1:
-
             Console.Write("massivin olcusunu daxil edin : ");
             string inputValue = Console.ReadLine();
             int n;
@@ -372,53 +394,51 @@
                 goto Label1;
             }
             int[] arr = new int[n];
-
-            for (int i = 0; i < arr.Length; i++)
+            int i;
+            for (i = 0; i < arr.Length; i++)
             {
-                Console.Write($"Massivin {i + 1} elementini daxil edin : ");
+                Console.Write($"massivin {i + 1} elementini daxil edin : ");
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
 
-            int[] arr2 = new int[n];
 
-
-            foreach (var i in arr)
+            int count = 0;
+            for (i = 0; i < arr.Length; i++)
             {
-                if (i < 0)
+                if (arr[i] < 0)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+
+            int[] arr2 = new int[n];
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (0 > arr[i])
                 {
                     arr2[i] = arr[i];
+                    Console.WriteLine($"yeni massivin elementleri: {arr2[i]} ");
                 }
-                Console.WriteLine($"massivin  elementi: {arr2[i]} ");
             }
 
-            // int max = 0;
-            //for (int i = 0; i < arr.Length; i++)
-            //{
 
-            //        if (arr[i] > max)
-            //        {
-            //            max = arr[i];
-            //        }
-
-            //}
-            //Console.WriteLine($" Maximum eded : {max}");
-
-            ////foreach (int i in arr)
-
-            //{
-            //    if (i < 0) { 
-            //    Console.WriteLine($"massivin  elementi: {i} ");
-            //    }
-            //}
+            int max = 0;
+            for (i = 0; i < arr2.Length; i++)
+            {
+                if (arr2[i] < max)
+                {
+                    max = arr2[i];
+                }
+            }
+            Console.WriteLine($" Maximum eded : {max}");
 
 
 
 
-            //Console.WriteLine($" Minimum eded : {min}");
 
-
-        }// 2 ci massiv alinmadi
+        }
 
 
         static void Task2()

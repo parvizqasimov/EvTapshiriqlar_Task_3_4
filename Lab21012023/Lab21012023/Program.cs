@@ -13,7 +13,7 @@ namespace Lab21012023
             //Task4();
             //Task5();
             //Task6();
-            Task7();
+            //Task7();
         }
 
         static void Task1()
