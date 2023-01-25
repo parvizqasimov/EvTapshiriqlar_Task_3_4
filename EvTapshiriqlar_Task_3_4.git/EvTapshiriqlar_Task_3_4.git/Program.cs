@@ -13,8 +13,9 @@
 
             //Task1_7();
             //Task1_8();
-            Task1_9();
+            //Task1_9();
             //Task1_10();
+            Task1_11();
             // Task2();
 
         }
@@ -378,7 +379,7 @@
                 arr3[i] = arr[i] / 4;
                 Console.WriteLine($"3- cu Massivin elementleri {arr3[i]}");
             }
-        }           
+        }
         static void Task1_10()
         {
         /*   X(n) massivinden ancaq menfi elementlerin maximum elementi tapin */
@@ -433,6 +434,56 @@
                 }
             }
             Console.WriteLine($" Maximum eded : {max}");
+
+
+
+
+
+        }
+
+        static void Task1_11()
+        {
+        /*   X(n) massivinin elementlerini random olaraq 0-100 arasi ededlerle doldurub,sonra ise azalma sirasina gore duzmeli */
+
+
+        Label1:
+            Console.Write("massivin olcusunu daxil edin : ");
+            string inputValue = Console.ReadLine();
+            int n;
+            if (int.TryParse(inputValue, out n) != true)
+            {
+                Console.WriteLine("eded dogru deyil");
+                goto Label1;
+            }
+            int[] arr = new int[n];
+
+            Random random = new Random();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int newArr = random.Next(1, 100);
+                arr[i] = newArr;
+            }
+
+            int temp;
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] < arr[j])
+                    {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+
+            }
+            foreach (var item in arr)
+            {
+                Console.WriteLine($"massivin elementleri: {item}");
+            }
+
+
 
 
 
