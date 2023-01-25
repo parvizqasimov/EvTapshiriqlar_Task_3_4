@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EvTapshiriqlar_Task_3_4.git
+﻿namespace EvTapshiriqlar_Task_3_4.git
 
 {
     internal class Program
@@ -381,10 +379,10 @@ namespace EvTapshiriqlar_Task_3_4.git
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
-           
-            int[] arr2= new int[n];
 
-           
+            int[] arr2 = new int[n];
+
+
             foreach (var i in arr)
             {
                 if (i < 0)
@@ -423,40 +421,68 @@ namespace EvTapshiriqlar_Task_3_4.git
         }// 2 ci massiv alinmadi
 
 
-        static void Task2() 
-        { 
-        Book B1= new Book();
-            B1.Name = "Mavi Melekler";
-            B1.AuthorName = "Chingiz Abdullayev";
-            B1.Publishdate = "12/12/2012";
-            B1.PageCount= 400;
-
-            
-         Book B2 = new Book();
-            B2.Name = "Qerb Burkusu";
-            B2.AuthorName = "Chingiz Abdullayev";
-            B2.Publishdate = "12/12/2013";
-            B2.PageCount = 300;
+        static void Task2()
+        {
+        //Book B1 = new Book();
+        //B1.Name = "Mavi Melekler";
+        //B1.AuthorName = "Chingiz Abdullayev";
+        //B1.Publishdate = "12/12/2012";
+        //B1.PageCount = 400;
 
 
-         Book B3 = new Book();
-            B3.Name = "Erkul Puaro";
-            B3.AuthorName = "Aqata Kristi";
-            B3.Publishdate = "12/12/2014";
-            B3.PageCount = 600;
+        //Book B2 = new Book();
+        //B2.Name = "Qerb Burkusu";
+        //B2.AuthorName = "Chingiz Abdullayev";
+        //B2.Publishdate = "12/12/2013";
+        //B2.PageCount = 300;
 
-            
-                Console.WriteLine(B1);
-                Console.WriteLine(B2);
-                Console.WriteLine(B3);
 
+        //Book B3 = new Book();
+        //B3.Name = "Erkul Puaro";
+        //B3.AuthorName = "Aqata Kristi";
+        //B3.Publishdate = "12/12/2014";
+        //B3.PageCount = 600;
+
+
+        //Console.WriteLine(B1);
+        //Console.WriteLine(B2);
+        //Console.WriteLine(B3);
+
+        Label1:
+            Console.Write("kitabxanda olan kitablarin sayini daxil edin : ");
+            string inputValue = Console.ReadLine();
+            int n;
+            if (int.TryParse(inputValue, out n) != true)
+            {
+                Console.WriteLine("eded dogru deyil");
+                goto Label1;
+            }
             Book[] arr = new Book[n];
-            Book n;
 
 
-           
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Book B = new Book();
 
+                Console.Write($"{i + 1} Kidabin adini daxil edin: ");
+                B.Name = Console.ReadLine();
 
+                Console.Write($"{i + 1} Kidabin muellifinin adini daxil edin: ");
+                B.AuthorName = Console.ReadLine();
+
+                Console.Write($"{i + 1} Kidabin nesher tarixini daxil edin: ");
+                B.Publishdate = Console.ReadLine();
+
+                Console.Write($"{i + 1} Kidabin sehiflerinin sayuni daxil edin: ");
+                B.PageCount = int.Parse(Console.ReadLine());
+
+                arr[i] = B;
+            }
+
+            foreach (var B in arr)
+            {
+                Console.WriteLine(B);
+            }
         }
     }
 }

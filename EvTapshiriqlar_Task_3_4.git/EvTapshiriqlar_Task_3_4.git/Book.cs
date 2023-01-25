@@ -1,6 +1,6 @@
 ﻿namespace EvTapshiriqlar_Task_3_4.git
 {
-    internal class Book : Object
+    public class Book : Object
     {
 
         /* Kitabın adı(Name) 
@@ -8,10 +8,10 @@
             Nəşr ili(PublishedDate)
             Səhifə sayı(PageCount)    (10-dan az reqem daxil etmek olmasin*/
 
-        internal string Name;
-        internal string AuthorName;
-        internal string Publishdate;
-        internal int PageCount;
+        public string Name;
+        public string AuthorName;
+        public string Publishdate;
+        public int PageCount;
 
         public override string ToString()
         {

@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\bin\Debug\net6.0\Lab21012023.exe
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\bin\Debug\net6.0\Lab21012023.deps.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\bin\Debug\net6.0\Lab21012023.runtimeconfig.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\bin\Debug\net6.0\Lab21012023.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\bin\Debug\net6.0\Lab21012023.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.AssemblyInfo.cs
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\refint\Lab21012023.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\Lab21012023.genruntimeconfig.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\Lab21012023\Lab21012023\obj\Debug\net6.0\ref\Lab21012023.dll
