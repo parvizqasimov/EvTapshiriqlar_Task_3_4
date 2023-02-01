@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.AssemblyInfo.cs
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\bin\Debug\net6.0\EvTapshiriqi_4_1.exe
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\bin\Debug\net6.0\EvTapshiriqi_4_1.deps.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\bin\Debug\net6.0\EvTapshiriqi_4_1.runtimeconfig.json
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\bin\Debug\net6.0\EvTapshiriqi_4_1.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\bin\Debug\net6.0\EvTapshiriqi_4_1.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\refint\EvTapshiriqi_4_1.dll
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.pdb
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\EvTapshiriqi_4_1.genruntimeconfig.cache
+C:\Users\User\Desktop\1\EvTapshiriqlar_Task_3_4\EvTapshiriqi_4_1\EvTapshiriqi_4_1\obj\Debug\net6.0\ref\EvTapshiriqi_4_1.dll
